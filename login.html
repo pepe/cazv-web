@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Agricultural journals</title>
+    <meta name="keywords" content="zemědělství, ekologické zemědělství, potravinářství, bezpečnost potravin, lesnictví, poradenství, EAFRD, HRDP, vodohospodářství">
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="description" content="Czech Academy of Agricultural Sciences">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body onload="onLoad()" onkeydown="onKeyDown(event)">
+  	<header class="level container">
+  		<div class="level-left">
+  			<a href="http://www.agriculturejournals.cz/login">
+  				<img src="./login/caas-logo.png" alt="CAAS Czech academy of agricultural sciences" width="550" height="82">
+  			</a>
+  		</div>
+  		<div class="level-right">
+    		<a href="http://www.agriculturejournals.cz/web">
+    			<h3 class="title is-4">OPEN ACCESS AGRICULTURAL JOURNALS</h3>
+  			</a>
+  		</div>
+  	</header>
+    <hr class="hr"/>
+    <div class="level">
+      <h2 class="level-item title is-4">Welcome to the Agricultural Journals of the Czech Academy of Agricultural Sciences editorial system</h2>
+    </div>
+    <hr class="hr"/>
+    <section class="UzpiLoginUi">
+      <div class="container">
+        <form class="columns is-centered is-variable is-8" action="http://test.vedeckecasopisy.cz/login?_s=rQHcJvFWwtuRTnjM&amp;_k=rxzUFfvE" enctype="multipart/form-data" method="post">
+          <div class="box column is-two-fifths">
+            <fieldset>
+              <p class="title has-text-centered">Sign in</p>
+              <p class="subtitle has-text-centered">With Username and Password</p>
+              <div class="field">
+                <label class="label">User name</label>
+                <input type="text" id="id2" value="" class="input text" name="1">
+              </div>
+              <div class="field">
+                <label class="label">Password</label>
+                <div class="level">
+                  <input type="password" id="showablePassword" value="" class="input password" name="3">
+                  <img onmouseup="document.getElementById(&quot;showablePassword&quot;).type = &quot;password&quot;" alt="" onmousedown="document.getElementById(&quot;showablePassword&quot;).type = &quot;text&quot;" src="./login/eye.png">
+                </div>
+              </div>
+              <div class="field">
+                <div class="control">
+                  <button type="submit" class="button is-primary">Sign In</button>
+                </div>
+              </div>
+            </fieldset>
+            <hr class="hr"/>
+            <p class="subtitle has-text-centered">With ORCID</p>
+            <div class="columns is-vcentered is-gapless">
+              <div class="column is-two-fifths">
+                <a class="button is-link" href="https://sandbox.orcid.org/oauth/authorize?client_id=APP-RXRV89V9KHA80OPY&amp;response_type=code&amp;scope=/authenticate&amp;redirect_uri=http://test.vedeckecasopisy.cz/orcidlogin">
+                  <img alt="" style="vertical-align: middle;" src="http://test.vedeckecasopisy.cz/resources/orcid_24x24.png">
+                  Sign in via ORCID
+                </a>
+              </div>
+              <p class="column is-three-fifths is-size-7"> Already registered users, please, first sign in with your login name and password, then add your ORCID in the “edit profile“ section. </p>
+            </div>
+          </div>
+          <div class="column is-two-fifths">
+            <p class="title has-text-centered">Register</p>
+            <p class="subtitle has-text-centered">With Username and Password</p>
+            <div class="control has-text-centered">
+              <a class="button is-large is-link is-fullwidth" href="http://test.vedeckecasopisy.cz/login?_s=rQHcJvFWwtuRTnjM&amp;_k=vQhajzqg&amp;5">Create account</a>
+            </div>
+            <hr class="hr">
+            <p class="subtitle has-text-centered">With ORCID</p>
+            <div class="control">
+              <a class="button is-large is-link is-fullwidth" href="https://sandbox.orcid.org/oauth/authorize?client_id=APP-RXRV89V9KHA80OPY&amp;response_type=code&amp;scope=/authenticate&amp;redirect_uri=http://test.vedeckecasopisy.cz/orcidlogin"><img alt="" style="vertical-align: middle;" src="http://test.vedeckecasopisy.cz/resources/orcid_24x24.png">Create account via ORCID</a>
+            </div>
+          </div>
+      </div>
+      <hr class="hr"/>
+      <div class="columns is-centered is-variable is-8">
+        <div class="column is-two-fifths">
+          <p class="subtitle has-text-centered">Reset Password</p>
+          <p class="is-size-7">Please enter your username or e-mail address, you will receive a link to the password reset page by e-mail.</p>
+          <div class="field">
+            <label class="label">Username or E-mail</label>
+            <input type="text" id="usernameOrEmail" value="" class="text input" name="6">
+          </div>
+          <div class="field">
+            <div class="control">
+              <button class="button is-primary">Reset password</button>
+            </div>
+          </div>
+        </div>
+        <hr class="hr"/>
+        <div class="column is-two-fifths">
+          <p class="subtitle has-text-centered">User support</p>
+          <p>To contribute, provide constructive feedback, or if you need support, please contact&nbsp;<a href="mailto:admin@cazv.cz">admin@cazv.cz</a></p>
+          <a class="button is-link is-size-5 is-fullwidth" href="http://test.vedeckecasopisy.cz/web/pdf/authors_guide.pdf">User tutorial</a>
+        </div>
+      </div>
+  </body>
+</html>
